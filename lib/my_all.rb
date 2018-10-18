@@ -7,6 +7,6 @@ def my_all?(collection)
     output << yield(collection[i])
     i += 1
   end
-  !output.contains?(false)
-  
+  !output.include?(false)
+
 end
